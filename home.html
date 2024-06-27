@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio prototype for Rand Marei, showcasing graphic design projects.">
+    <title>Portfolio Prototype</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rand Marei</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>My name is Rand Marei. I am studying graphic design at Wake Tech Community College.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="img/Marei-pjt3poster.jpg" alt="College Poster">
+                        <h3>College Poster</h3>
+                        <p>For this project, I had to create a poster for college that needed employees and create a new logo for it.</p>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="img/Marei-postar.png" alt="Typography Poster">
+                        <h3>Typography Poster</h3>
+                        <p>The project was to create a typography poster on any topic we chose, so I chose 'Safety Behind the Wheel'.</p>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="img/Marei-pjt1Letterhead.png" alt="Letterhead for Pet Care Clinic">
+                        <h3>Letterhead</h3>
+                        <p>The project was to create a letterhead for a pet care clinic.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rand Marei. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
